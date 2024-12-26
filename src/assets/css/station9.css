@@ -1,0 +1,22 @@
+#animation{
+    font-size:40px;
+    opacity:0;
+    animation-name: sample01; 
+    animation-duration: 5s; 
+    /* animation-iteration-count:2; */
+    animation-fill-mode: forwards;  
+}
+@keyframes sample01 {
+0% {
+    opacity: 0;
+    color:#000;
+    }
+90% {
+    opacity: 1;
+    color:#000;
+    }
+100% {
+    opacity: 1;
+    /* color:#00f; */
+    } 
+}
